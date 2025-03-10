@@ -1,0 +1,7 @@
+ol strong{
+    color : green;
+}
+/* The above code will select all the strong elements that are inside an ordered list. */
+h1 u{
+    color : red;
+}
