@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+    border-left: 15px solid rgba(247, 232, 232, 0.603) ;
+    border-top: 15px solid rgba(247, 232, 232, 0.603);
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+}
+
+.outer{
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+p {
+    color: #555;
+}
+
+td{
+    width: 50%;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.name{
+    width: 85%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.email{
+    width: 85%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#message{
+    width:100%
+}
+
+:-ms-input-placeholder{
+    color: #555;
+}
+
+.btn{
+    background-color: #198754;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

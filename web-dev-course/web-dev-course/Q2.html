@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1>Novell Service Login</h1>
+        <table>
+            <tr>
+                <td><label>Usrename:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label>City of Employment:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Web Server:</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="choose a server">--choose a server--</option>
+                        <option value="Apache">Apache</option>
+                        <option value="IIS">IIS</option>
+                        <option value="Tomcat">Tomcat</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Please specify <br> your role:</label>
+                </td>
+                <td>
+                    <input type="radio" name="role" value="Admin">Admin <br>
+                    <input type="radio" name="role" value="Engineer">Eingineer <br>
+                    <input type="radio" name="role" value="Manager">Manager <br>
+                    <input type="radio" name="role" value="Guest">Guest <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable>Single Sign-on <br> to the following:</lable>
+                </td>
+                <td>
+                    <input type="checkbox" name="sso" value="Mail">Mail <br>
+                    <input type="checkbox" name="sso" value="Payrol">Payroll <br>
+                    <input type="checkbox" name="sso" value="Self-Service">Self-Service <br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="Login">
+                    <input type="button" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

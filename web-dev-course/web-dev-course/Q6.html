@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <b>Project Managment</b>
+    <div class="container">
+
+        <form>
+            <table>
+                <tr>
+
+                    <td>
+                        <lable for="projectName">Project Name</lable>
+                    </td>
+                    <td><input type="text" id="projectName" name="projectName" placeholder="project name"></td>
+                    <br>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="assignedTo">Assigned to</label>
+                    </td>
+                    <td>
+                        <select name="assignedTo" id="assignedTo">
+                            <option value="1" selected>Er Merry Petision</option>
+                            <option value="2">Jane Doe</option>
+                            <option value="3">Jim Doe</option>
+                            <option value="4">Jill Doe</option>
+                        </select>
+                    </td>
+                    <br>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Start Date</lable>
+                    </td>
+                    <td><input type="date" id="startDate" name="startDate"></td>
+                    <br>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>End Date</lable>
+                    </td>
+                    <td><input type="date" id="endDate" name="endDate"></td>
+                    <br>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Priority</lable>
+                    </td>
+                    <td>
+                        <input type="radio" id="high" name="priority" value="high">
+                        <label for="high">High</label>
+                        <input type="radio" id="medium" name="priority" value="medium">
+                        <label for="medium">Medium</label>
+                        <input type="radio" id="low" name="priority" value="low">
+                        <label for="low">Low</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Description</lable>
+                    </td>
+                    <td><textarea name="description" id="description" cols="20" rows="2"></textarea></td>
+                </tr>
+            </table>
+            <button class="submit">Submit</button>
+            <button class="clear">Clear</button>
+        </form>
+    </div>
+</body>
+
+</html>

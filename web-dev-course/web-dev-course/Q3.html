@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1>NEW PRODUCT</h1>
+        <table>
+            <tr>
+                <td>
+                    Name
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Price
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" min="0" step="1">
+                </td>
+            </tr>
+            <tr>
+                <td>Released on:</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="year" value="2010" min="1900" max="2099">
+                    <select name="month">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option selected>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <input type="number" name="day" value="4" min="1" max="31"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable>Category</lable>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="category" id="category">
+                        <option selected>Toys & Games</option>
+                        <option>Electronics</option>
+                        <option>Books</option>
+                    </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td><lable>Rating</lable></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="rating" name="rating" value="1" min="1" max="5"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="discontinued">Discontinued</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="discontinued" name="discontinued"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Create Product</button>
+                </td>
+        </table>
+    </form>
+</body>
+
+</html>
