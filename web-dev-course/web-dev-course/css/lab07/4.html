@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="flex justify-center items-center h-screen bg-white font-sans">
+    <div class="forms-container flex flex-wrap justify-center items-center gap-8">
+      <!-- Signup Form -->
+      <div class="form1border bg-yellow-400 p-5 rounded-lg shadow-lg">
+        <div class="container w-[400px] bg-white p-5 border-8 border-gray-400 rounded-lg shadow-md">
+          <form>
+            <div class="login-form">
+              <div class="logo w-[80%] text-center mx-auto my-5 text-yellow-600 border-2 border-dashed border-yellow-600 py-3 font-bold">
+                Your Logo Here
+              </div>
+
+              <label for="fname" class="block text-gray-500 py-1">First Name<span class="text-red-500">*</span></label>
+              <input type="text" id="fname" required class="w-full p-2 my-1 border border-yellow-600 rounded" />
+
+              <label for="lname" class="block text-gray-500 py-1">Last Name<span class="text-red-500">*</span></label>
+              <input type="text" id="lname" required class="w-full p-2 my-1 border border-yellow-600 rounded" />
+
+              <label for="email" class="block text-gray-500 py-1">Email Address<span class="text-red-500">*</span></label>
+              <input type="email" id="email" required class="w-full p-2 my-1 border border-yellow-600 rounded" />
+
+              <label for="password" class="block text-gray-500 py-1">Password<span class="text-red-500">*</span></label>
+              <input type="password" id="password" required class="w-full p-2 my-1 border border-yellow-600 rounded" />
+
+              <label for="confirm-password" class="block text-gray-500 py-1">Again Password<span class="text-red-500">*</span></label>
+              <input type="password" id="confirm-password" required class="w-full p-2 my-1 border border-yellow-600 rounded" />
+
+              <div class="btns flex justify-between items-center mt-3">
+                <p class="text-yellow-400">Have an account</p>
+                <button class="px-4 py-2 bg-yellow-400 text-yellow-600 font-bold rounded cursor-pointer">Signup</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="form2border bg-yellow-400 p-5 rounded-lg shadow-lg">
+        <div class="container w-[400px] bg-white p-5 border-8 border-gray-400 rounded-lg shadow-md">
+          <form>
+            <div class="signup-form">
+              <div class="logo w-[80%] text-center mx-auto my-5 text-yellow-600 border-2 border-dashed border-yellow-600 py-3 font-bold">
+                Your Logo Here
+              </div>
+
+              <label for="username" class="block text-gray-500 py-1">Username or email address<span class="text-red-500">*</span></label>
+              <input type="text" id="username" required class="w-full p-2 my-1 border border-yellow-600 rounded" />
+
+              <label for="login-password" class="block text-gray-500 py-1">Password<span class="text-red-500">*</span></label>
+              <input type="password" id="login-password" required class="w-full p-2 my-1 border border-yellow-600 rounded" />
+
+              <div class="btns flex justify-between items-center mt-3">
+                <p class="text-yellow-400">Forgot Password? <br />Create an account</p>
+                <button class="px-4 py-2 bg-yellow-400 text-yellow-600 font-bold rounded cursor-pointer">Login</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

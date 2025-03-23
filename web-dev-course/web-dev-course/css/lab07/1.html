@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+
+<body class="flex items-center justify-center min-h-screen bg-white">
+    <div class="flex w-4/5 h-screen">
+        
+        <div class="w-2/5 bg-black text-white p-12 flex flex-col justify-between">
+            <div>
+                <label class="text-lg font-bold">LOCATION</label>
+                <address class="mt-2 text-sm">28 Jackson Blvd Ste 1020, Chicago, IL 60604-2340</address>
+            </div>
+            
+            <div>
+                <h2 class="text-xl font-semibold">FOLLOW US</h2>
+                <div class="flex gap-4 mt-4">
+                    <a href="#" class="text-white text-2xl"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="text-white text-2xl"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-white text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-white text-2xl"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <p class="mt-4 text-sm">©2018 Privacy policy</p>
+            </div>
+        </div>
+        
+        
+        <div class="w-1/12 bg-black"></div>
+        
+        <div class="w-7/12 bg-gradient-to-r from-yellow-500 to-black p-12 text-white relative">
+            <div class="absolute inset-0 flex flex-col items-center justify-center p-12">
+                <h2 class="text-2xl font-bold mb-6">CONTACT FORM</h2>
+                <form class="flex flex-col gap-4 w-full max-w-md">
+                    <div class="relative w-full">
+                        <i class="fa-solid fa-user absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+                        <input type="text" placeholder="Enter your Name" class="w-full p-3 pl-10 rounded border-none text-black">
+                    </div>
+                    <div class="relative w-full">
+                        <i class="fa-solid fa-envelope absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+                        <input type="email" placeholder="Enter a valid email address" class="w-full p-3 pl-10 rounded border-none text-black">
+                    </div>
+                    <div class="relative w-full">
+                        <i class="fa-solid fa-comment-dots absolute left-3 top-4 text-gray-500"></i>
+                        <textarea placeholder="Enter your message" class="w-full p-3 pl-10 rounded h-24 border-none resize-none text-black"></textarea>
+                    </div>
+                    <button type="submit" class="p-3 border-2 border-white text-white rounded hover:bg-white hover:text-black transition-all">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
